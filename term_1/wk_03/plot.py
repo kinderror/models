@@ -8,6 +8,6 @@ v = data[:,2]
 x_th = np.cos(t)
 #x = x - x_th
 fig, ax = plt.subplots()
-ax.plot(t, v * v + x * x - 1)
+ax.plot(t, x - x_th)
 #ax.plot(t, x_th)
 plt.show()
